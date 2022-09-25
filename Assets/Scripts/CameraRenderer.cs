@@ -15,7 +15,7 @@ public partial class CameraRenderer
     private CommandBuffer _commandBuffer;
     private const string bufferName = "Camera Render";
     private static readonly List<ShaderTagId> drawingShaderTagIds =
-        new List<ShaderTagId> { new ShaderTagId("SRPDefaultUnlit"), new ShaderTagId("Custom/PlanetShader") };
+        new List<ShaderTagId> { new ShaderTagId("SRPDefaultUnlit"), new ShaderTagId("UniversalForward"), new ShaderTagId("LightweightForward") };
 
 
     public void Render(ScriptableRenderContext context, Camera camera)

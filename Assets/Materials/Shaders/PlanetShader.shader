@@ -14,7 +14,7 @@ Shader "Custom/PlanetShader"
 	}
 	SubShader
 	{
-		Tags { "RenderType" = "Opaque" }
+		Tags { "RenderType" = "Opaque"  "LightMode" = "LightweightForward" }
 		LOD 100
 	
 		CGPROGRAM
